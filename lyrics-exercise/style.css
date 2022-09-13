@@ -6,20 +6,29 @@ body{
 
 p1{
     color:rgb(120, 172, 218);
+    font-weight: bold;
 }
 
 p2{
     color:brown;
+    font-weight: bold;
 }
 
 p3{
-    color:aquamarine
+    color:aquamarine;
+    font-weight: bold;
 }
 
 p4{
-    color:rgb(163, 163, 248)
+    color:rgb(163, 163, 248);
+    font-weight: bold;
 }
 
 p5{
-    color:beige
+    color:beige;
+    font-weight: bold;
 } 
+
+.verse1{
+    line-height: 160%;
+}
