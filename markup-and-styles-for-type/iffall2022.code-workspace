@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Desktop/iffall2022/resources"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "iffall2022"
+	}
+}
