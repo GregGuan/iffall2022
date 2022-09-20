@@ -1,0 +1,66 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+header{
+    font-size: 40pt;
+    font-weight: 700;
+    color:rgb(5, 162, 162)
+}
+
+h3{
+    color:rgb(5, 162, 162)
+}
+
+h4{
+    color:rgb(49, 118, 118);
+}
+
+div{
+    margin-top:5%;
+}
+
+.fontweight{
+    font-weight: bold;
+}
+
+.fontstyle{
+    font-style: italic;
+}
+
+.letterspacing1{
+    letter-spacing: .1em;
+}
+
+.letterspacing2{
+    letter-spacing: .3em;
+}
+
+.letterspacing3{
+    letter-spacing: .5em;
+}
+
+.texttransform{
+    text-transform: capitalize;
+}
+
+.texttransform2{
+    text-transform: uppercase;
+}
+
+.textdecoration{
+    text-decoration: line-through;
+}
+
+.textdecoration2{
+    text-decoration: underline;
+}
+
+p1{
+    color:rgb(49, 118, 118);
+    font-weight:600
+}
