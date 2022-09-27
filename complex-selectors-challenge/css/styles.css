@@ -49,6 +49,18 @@ img+div{
     font-weight: bold;
 }
 
-a:last-child{
+a div:last-child{
     font-style: italic;
 }
+/* a div:nth-child(3) {}*/
+
+.seasons li:last-child::after{
+    content: "*";
+}
+
+.seasons::after{
+    content: "* Final Season";
+    font-size:0.7rem;
+    color: #999;
+}
+
