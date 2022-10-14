@@ -1,6 +1,7 @@
 html{
     font-family: 'Archivo Narrow', sans-serif;
     line-height: 1.4;
+    color: white;
 }
 
 .content-area{
@@ -19,6 +20,78 @@ html{
 
 #intro.panel{
     text-align: center;
+    background-image: url(https://news.artnet.com/app/news-upload/2018/11/9932-Lot-37-1024x673.jpg);
+    background-size: cover;
+}
+
+#main.panel{
+    background-color:rgb(35, 102, 79); 
+    padding-bottom: 37px;
+}
+
+#grid.panel{
+    background-color: rgb(76, 105, 105);
+    padding-bottom: 35px;
+}
+
+p{  
+    
+    margin:0;
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.15px;
+}
+
+
+#Img{
+    float:right;
+    padding-top: 15px;
+    padding-left: 38px;
+    margin-bottom: 27px;
+}
+
+#Img2{
+    float:left;
+    margin-right: 12px;
+}
+
+#section3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blocks{
+    margin-top: 15px;
+    margin-right:30px;
+    margin-bottom: 10px;
+    width: 450px;
+}
+
+.blocks p{
+    padding-top:5.5px;
+}
+
+#final.panel{
+    background-color: rgb(105, 122, 135);
+    padding-bottom: 80px;
+}
+
+#final p{
+    text-align: center;
+    width: 710px;
+    padding-left: 125px;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    line-height: 1.43;
+}
+
+#copyright p{
+    padding-top: 22px;
+}
+
+#copyright.panel{
+    background-color: rgb(66, 66, 66);
 }
 
 h1{
@@ -44,6 +117,12 @@ h3{
     padding:17px;
 }
 
+h4{
+    font-size: 20px;
+    margin:0;
+}
+
 header{
     /* padding:78px 0; */
 }
+
