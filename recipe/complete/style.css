@@ -43,38 +43,55 @@
 
 .steps{
     padding-bottom: 100px;
+    width: 50%;
 }
 
 img{
-    width: 60%;
+    /* width: 60%; */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin:0;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 p{  
     font-size: 10pt;
     /* text-align: center; */
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .tips{
     margin-top: -50px;
-    margin-left:15%;
-    margin-right:15%;
+    margin-left:20%;
+    margin-right:20%;
     padding-bottom: 200px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
 }
 
 @media (max-width: 500px){
     p{  
         font-size: 5pt;
     }
+    .steps{
+        padding-bottom: 100px;
+        width: 90%;
+    }
 }
 
 @media (min-width: 640px) {
     p{  
         font-size: 12pt;
+    }
+    .steps{
+        padding-bottom: 100px;
+        width: 30%;
     }
 }
 
