@@ -29,8 +29,9 @@ html,body{
 }
 
 .introPanels{
-    width: 100%;
+    width: 85%;
     margin-left: 5%;
+
 }
 
 
@@ -56,13 +57,13 @@ html,body{
 }
 
 img{
-    /* width: 60%; */
+    width: 80%;
     display: block;
     /* margin-left: auto;
     margin-right: auto; */
     margin:0;
     padding-left: 10%;
-    padding-right: 10%;
+    /* padding-right: 10%; */
 }
 
 p{  
@@ -83,6 +84,7 @@ p{
 .grid{
     display: flex;
     flex-wrap:wrap;
+    padding-left: 10%;
 }
 
 li{
