@@ -6,7 +6,7 @@
     width:  150%;
     height: 150%;
     margin-left: -50%;
-    margin-top: -10%;
+    margin-top: -0%;
     padding: 0px;
 }
 
@@ -17,8 +17,67 @@
     margin-left: -100px;;
 }
 
-.intro{
+/* .intro{
+    display: flex;
     height:600px;
     background-image: url(../complete/images/whiteplate.png);
+    background-size: cover;
+    background-position: right 10px;
     background-repeat: no-repeat;
+} */
+
+.introPanels{
+    width: 100%;
+    margin-left: 10%;
 }
+
+.recipe{
+    background-image: url(../complete/images/PaperBG.jpeg);
+}
+
+.subtitle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    width: 15%;
+}
+
+.steps{
+    padding-bottom: 100px;
+}
+
+img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{  
+    font-size: 10pt;
+    /* text-align: center; */
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.tips{
+    margin-top: -50px;
+    margin-left:15%;
+    margin-right:15%;
+    padding-bottom: 200px;
+}
+
+@media (max-width: 500px){
+    p{  
+        font-size: 5pt;
+    }
+}
+
+@media (min-width: 640px) {
+    p{  
+        font-size: 12pt;
+    }
+}
+
