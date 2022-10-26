@@ -1,14 +1,4 @@
-.header{
-   display: flex;
-}
 
-#headerimg{
-    width:  150%;
-    height: 150%;
-    margin-left: -50%;
-    margin-top: -0%;
-    padding: 0px;
-}
 
 #titleImg{
     width:15%;
@@ -26,10 +16,17 @@
     background-repeat: no-repeat;
 } */
 
+.headPanel{
+    Margin:0;
+    width: 100%;
+}
+
 .introPanels{
     width: 100%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
+
+
 
 .recipe{
     background-image: url(../complete/images/PaperBG.jpeg);
