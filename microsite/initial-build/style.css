@@ -5,7 +5,7 @@ html{
 
 .navBar{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .button_container{
@@ -14,7 +14,7 @@ html{
 }
 
 .logo_container{
-    /* width: 50%; */
+    /* max-width: 100px; */
     margin: auto;
     padding-top: 2%;
 }
@@ -28,6 +28,8 @@ html{
 
 #FakerLogo{
     width: 70%;  
+    margin: auto;
+    display: block;
     /* padding-bottom: 20%; */
 }
 
@@ -35,10 +37,14 @@ html{
 .imgBanner{
     width:100%;
     margin-bottom:10%;
-    
 }
 
+/* #BannerPic{
+ width:100%;
+} */
+
 .imgBanner img{
+    width:100%;
     object-fit: cover;
 }
 
@@ -67,5 +73,7 @@ p{
 
 /* for mobile */
 @media (max-width: 640px) {
-
+    .navBar{
+        display:none;
+    }
 }
