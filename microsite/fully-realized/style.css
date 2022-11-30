@@ -1,0 +1,170 @@
+html{
+    background-color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 100px;
+    margin: auto;
+    padding-top: 20%;
+    color:rgb(255, 255, 255);
+}
+
+.content h1:hover{
+-webkit-text-stroke:4px rgb(210, 0, 0);
+color: transparent;
+}
+
+.About_btn{
+    text-decoration: none;
+    display: inline-block;
+    color:azure;
+    font-size:24px;
+    border: 2px solid white;
+    padding: 10px 60px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.About_btn:hover{
+    border:0px solid rgb(210, 0, 0);
+    color:rgb(255, 255, 255);
+    background-color: rgb(210, 0, 0);
+    font-weight: bold;
+}
+
+
+.background_video{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:-1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .background_video{
+        width:100%;
+        height:auto;
+    }
+
+}
+
+.navBar{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.button_container{
+    width: 15%;
+    margin: 5%;
+}
+
+.logo_container{
+    /* max-width: 100px; */
+    margin: auto;
+    padding-top: 2%;
+}
+
+.btn_Text{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: xx-large;
+
+}
+
+#FakerLogo{
+    width: 70%;  
+    margin: auto;
+    display: block;
+    /* padding-bottom: 20%; */
+}
+
+
+.imgBanner{
+    width:100%;
+    margin-bottom:10%;
+}
+
+/* #BannerPic{
+ width:100%;
+} */
+
+.imgBanner img{
+    width:100%;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    color:rgb(255, 255, 255)
+}
+h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Content{
+    color: rgb(255, 255, 255);
+    margin: 10%;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+.Footer{
+    padding-top: 15%;
+    font-size: smaller;
+    text-align: center;
+}
+
+.Intro_Footer{
+    font-size: smaller;
+    text-align: center;
+    position: fixed;
+    left: 20;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+/* for mobile */
+@media (max-width: 640px) {
+    /* .navBar{
+        display:none;
+    } */
+
+    li, p{
+        font-size: 8pt;
+    }
+
+    h1{
+        font-size: 14pt;
+    }
+
+    h2{
+        font-size: 12pt;
+    }
+
+    .btn_Text{
+        font-size: 18pt;
+    }
+
+    #FakerLogo{
+        width: 50%;
+    }
+
+    .Footer{
+        font-size: 6pt;
+    }
+}
