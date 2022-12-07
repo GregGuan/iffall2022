@@ -238,8 +238,19 @@ p{
     } */
 
     .content h1{
-        font-size: 60px;
+        font-size: 40px;
         margin-top: 45%;
+    }
+
+    .About_btn{
+        text-decoration: none;
+        display: inline-block;
+        color:azure;
+        font-size: 20px;
+        border: 1.5px solid white;
+        padding: 6px 40px;
+        border-radius: 40px;
+        margin-top: 20px;
     }
 
     .Content{
