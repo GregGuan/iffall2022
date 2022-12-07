@@ -14,6 +14,9 @@ header{
     
 }
 
+.video_body{
+    text-align: centerf;
+}
 
 .content{
     text-align: center;
@@ -199,7 +202,7 @@ p{
     }
 
     li, p{
-        font-size: 10pt;
+        font-size: 12pt;
     }
 
     h1{
@@ -233,6 +236,11 @@ p{
     /* .navBar{
         display:none;
     } */
+
+    .content h1{
+        font-size: 60px;
+        margin-top: 45%;
+    }
 
     .Content{
         padding:10%;    
