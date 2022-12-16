@@ -1,0 +1,497 @@
+a#btn_CocaCola{
+    display:block;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid red;
+    display:block;
+    width: 100px;
+	height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+	padding-top: 8px;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_CocaCola img{
+    width: 80px;
+    margin-top: 25%;
+}
+
+a#btn_CocaCola:hover{
+    background-color: black;
+    border: 2px solid black;
+}
+
+
+
+a#btn_Apple{
+    display:block;
+    background-color: rgb(227, 227, 227);
+    display:block;
+    width: 100px;
+	height: 100px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 75px;
+	padding-top: 8px;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_Apple img {
+    width: 80px;
+    margin-top: 15px;
+}
+
+a#btn_Apple:hover{
+    background-color:rgb(255, 255, 255);
+    border: 2px solid rgb(227, 227, 227);
+}
+
+
+a#btn_IBM{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:block;
+    color:white;
+    background-color: rgb(41, 78, 227);
+    text-decoration: none;
+    width: 80px;
+	height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 8px;
+    font-size: 28px;
+    text-align: center;
+    transition: all .5s;
+   
+}
+
+
+
+a#btn_IBM:hover{
+    background-color: rgb(133, 145, 254);
+}
+
+
+
+a#btn_nerf{
+    display:block;
+    color:white;
+    background-color: rgb(254, 156, 0);
+    text-decoration: none;
+    width: 100px;
+	height: 50px;
+    border-radius: 50px 15px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 5px;
+    font-size: 28px;
+    font-style:italic;
+    font-weight: bold;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_nerf:hover{
+    background-color: rgb(91, 200, 255);
+}
+
+
+a#btn_harley{
+    display:block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    width: 150px;
+	height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 8px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_harley:hover{
+    color:white;
+    background-color: black;
+}
+
+
+a#btn_MK{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 150px;
+	height: 120px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 70px;
+	padding-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_MK:hover{
+    background-color: rgb(81, 59, 59);
+    color:white;
+}
+
+
+a#btn_ideo{
+    display:block;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(0,255,190,1) 0%, rgba(255,100,0,1) 100%);
+    text-decoration: none;
+    width: 100px;
+	height: 40px;
+    /* border-radius: 50%; */
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 5px;
+    font-size: 28px;
+    font-weight: bold;
+
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_ideo:hover{
+    color:rgb(0, 0, 0);
+    background: rgb(255,100,0);
+    background: linear-gradient(90deg, rgba(255,100,0,1) 0%, rgba(0,255,190,1) 100%);
+}
+
+
+a#btn_pastaria{
+    display:block;
+    color:rgb(167, 214, 230);
+    background:rgb(22, 101, 119);
+    text-decoration: none;
+    width: 160px;
+	height: 50px;
+    /* border-radius: 50%; */
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 6px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_pastaria:hover{
+    color:rgb(255, 111, 0);
+}
+
+
+a#btn_craigsglist{
+    display:block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(84, 2, 114);
+    text-decoration: none;
+    width: 160px;
+	height: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_craigsglist:hover{
+background-color: rgb(84, 2, 114);
+color:white;
+}
+
+
+a#btn_lyft{
+    display:block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(238, 53, 155);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 100px;
+	height: 60px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 8px;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_lyft:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(46, 17, 163);
+}
+
+
+
+a#btn_samsung{
+    display:block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 160px;
+	height: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_samsung:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(29, 5, 92);
+}
+
+
+a#btn_nike{
+    display:block;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 10px;
+    font-size: 30px;
+    opacity: 0.5;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_nike img{
+    width: 80px;
+}
+
+a#btn_nike:hover{
+    opacity: 1;
+}
+
+a#btn_tesla{
+    display:block;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(209, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 160px;
+	height: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 20px;
+    text-align: center;
+    transition: all .5s;
+    opacity: 0.8;
+}
+
+a#btn_tesla img{
+    width:80px;
+}
+
+
+a#btn_tesla:hover{
+    font-size: 30px;
+    opacity: 1;
+    width:100px;
+}
+
+a#btn_fitbit{
+    display:block;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(35, 137, 148);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_fitbit:hover{
+    color:rgb(14, 78, 101)
+}
+
+a#btn_newyorker{
+    display:block;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_newyorker:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+
+a#btn_foreflight{
+    display:block;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgba(255, 255, 255, 0.85);
+    background: linear-gradient(90deg, rgba(228,0,0,1) 0%, rgba(114,121,9,1) 50%, rgba(0,212,255,1) 100%);
+    text-decoration: none;
+    width: 160px;
+	height: 50px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 8px;
+    font-size: 30px;
+    text-align: center;
+    transition: all .5s;
+}
+
+
+a#btn_foreflight:hover{
+    /* font-weight: bold; */
+    color:rgba(255, 255, 255);
+    width: 170px;
+    background: linear-gradient(90deg, rgba(203,39,0,1) 0%, rgba(177,189,0,1) 24%, rgba(0,212,255,1) 68%, rgba(0,70,184,1) 100%);
+}
+
+
+#btn_ins{
+    display:block;
+    text-decoration: none;
+    width: 100px;
+	height: 100px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding-top:10px;
+    font-size: 30px;
+    text-align: center;
+    transition: all .5s;
+    background: rgb(255,241,0);
+    background: linear-gradient(45deg, rgba(255,241,0,1) 0%, rgba(255,100,0,1) 35%, rgba(255,0,221,1) 78%, rgba(160,0,255,1) 100%);
+}
+
+
+#btn_ins img{
+    width: 80px;
+}
+
+#btn_ins:hover{
+    background: rgb(255,164,0);
+    background: linear-gradient(45deg, rgba(255,164,0,1) 0%, rgba(255,0,221,1) 30%, rgba(160,0,255,1) 63%, rgba(255,164,0,1) 100%);
+}
+
+
+#btn_fb{
+    display:block;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    background: rgb(28, 102, 213);
+    text-decoration: none;
+    width: 100px;
+	height: 100px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	
+    padding-right: 5px;
+    font-size: 140px;
+    text-align: center;
+    transition: all .5s;
+}
+
+#btn_fb:hover{
+    color:rgb(255, 255, 255);
+    background: rgb(59, 86, 149);
+}
+
+a#btn_oldnavy{
+    display:block;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    background-color: rgb(32, 56, 127);
+    text-decoration: none;
+    width: 160px;
+	height: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    transition: all .5s;
+}
+
+a#btn_oldnavy:hover{
+    background-color: rgb(255, 96, 4);
+}
+
+#btn_potter{
+    display:block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(6,0,255,1) 0%, rgba(255,0,221,1) 14%, rgba(0,24,255,1) 35%, rgba(0,255,229,1) 69%, rgba(255,0,0,1) 81%);
+    text-decoration: none;
+    width: 100px;
+	height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 8px;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    transition: all .5s;
+}
+
+#btn_potter:hover{
+    width: 100px;
+	height: 100px;
+    border-radius: 0;
+    color:white;
+background: radial-gradient(circle, rgba(6,0,255,1) 0%, rgba(255,0,0,1) 8%, rgba(255,0,221,1) 14%, rgba(0,24,255,1) 30%, rgba(0,255,229,1) 42%, rgba(83,0,255,1) 59%, rgba(255,0,0,1) 68%);
+}
